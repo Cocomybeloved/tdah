@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Curs_5/Documents/tdah/animaciones/Content/Characters/Mannequin_UE4/gogogogogo.uasset",
+				"C:/Users/Curs_5/Documents/tdah/animaciones/Content/Characters/NewBehaviorTree.uasset",
+				"C:/Users/Curs_5/Documents/tdah/animaciones/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/Curs_5/Documents/tdah/animaciones/Content/Characters/NewBlackboardData.uasset"
+			]
+		}
+	]
+}
