@@ -3478,3 +3478,453 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.19-09.04.47:016][419]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A164CC0002_1960719452
 [2024.06.19-09.04.47:016][419]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A164CC0002_2119202453
 [2024.06.19-09.04.47:016][419]LogContentValidation: Display: Validating /Script/UnrealEd.GroupActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.GroupActor_UAID_BCECA016A164CD0002_1700968634
+[2024.06.19-09.05.24:603][896]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.06.19-09.05.24:613][896]LogContentBundle: [Oficial(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.06.19-09.05.24:613][896]LogWorldPartition: Display: GenerateStreaming for 'Oficial' started...
+[2024.06.19-09.05.24:617][896]LogWorldPartition: Display: GenerateStreaming for 'Oficial' took 4 ms (total: 47 ms)
+[2024.06.19-09.05.24:617][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.19-09.05.24:618][896]PIE: New page: PIE session: Oficial (19 jun. 2024 13:05:24)
+[2024.06.19-09.05.24:618][896]LogPlayLevel: Creating play world package: /Game/ParadaBus/UEDPIE_0_Oficial
+[2024.06.19-09.05.24:623][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005312s)
+[2024.06.19-09.05.24:623][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ParadaBus/Oficial.Oficial to /Game/ParadaBus/UEDPIE_0_Oficial.Oficial (0.005348s)
+[2024.06.19-09.05.24:630][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.06.19-09.05.24:630][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-09.05.24:632][896]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-09.05.24:632][896]LogAIModule: Creating AISystem for world Oficial
+[2024.06.19-09.05.24:633][896]LogWorldPartition: ULevel::OnLevelLoaded(Oficial)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.06.19-09.05.24:633][896]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.06.19-09.05.24:633][896]LogWorldPartition: UWorldPartition::Initialize : World = Oficial, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.06.19-09.05.24:633][896]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.06.19-09.05.24:634][896]LogContentBundle: [Oficial(Standalone)] Creating new contrainer.
+[2024.06.19-09.05.24:634][896]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 885 ms)
+[2024.06.19-09.05.24:634][896]LogPlayLevel: PIE: World Init took: (0.002725s)
+[2024.06.19-09.05.24:634][896]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.06.19-09.05.24:634][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.19-09.05.24:634][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.19-09.05.24:634][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.19-09.05.24:634][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.19-09.05.24:634][896]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.19-09.05.24:634][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.19-09.05.24:634][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.19-09.05.24:634][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.19-09.05.24:634][896]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.19-09.05.24:634][896]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.19-09.05.24:634][896]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.19-09.05.24:636][896]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.19-09.05.24:684][896]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (Realtek(R) Audio)
+[2024.06.19-09.05.24:684][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.19-09.05.24:684][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.19-09.05.24:684][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.19-09.05.24:686][896]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.06.19-09.05.24:686][896]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.06.19-09.05.24:688][896]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.06.19-09.05.24:688][896]LogInit: FAudioDevice initialized with ID 11.
+[2024.06.19-09.05.24:688][896]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.06.19-09.05.24:688][896]LogAudio: Display: Audio Device (ID: 11) registered with world 'Oficial'.
+[2024.06.19-09.05.24:688][896]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.06.19-09.05.24:758][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.19-09.05.24:758][896]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.06.19-09.05.24:760][896]LogWorld: Bringing World /Game/ParadaBus/UEDPIE_0_Oficial.Oficial up for play (max tick rate 60) at 2024.06.19-11.05.24
+[2024.06.19-09.05.24:760][896]LogWorld: Bringing up level for play took: 0.000819
+[2024.06.19-09.05.24:762][896]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.06.19-09.05.24:766][896]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(39), CellsToLoad(0), CellsToUnload(0)
+[2024.06.19-09.05.24:766][896]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=20684.000 Y=2609.000 Z=55.000,P=-0.000000 Y=-95.000001 R=0.000000
+[2024.06.19-09.05.24:770][896]LogStreaming: Display: FlushAsyncLoading(): 124 QueuedPackages, 0 AsyncPackages
+[2024.06.19-09.05.25:122][896]PIE: Server logged in
+[2024.06.19-09.05.25:123][896]PIE: Play in editor total start time 0,51 seconds.
+[2024.06.19-09.05.25:142][896]LogViewport: Scene viewport resized to 666x490, mode Windowed.
+[2024.06.19-09.05.31:754][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.19-09.05.31:754][286]LogWorld: BeginTearingDown for /Game/ParadaBus/UEDPIE_0_Oficial
+[2024.06.19-09.05.31:754][286]LogSlate: Window 'MyProject7 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.06.19-09.05.31:771][286]LogWorld: UWorld::CleanupWorld for Oficial, bSessionEnded=true, bCleanupResources=true
+[2024.06.19-09.05.31:772][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-09.05.31:772][286]LogContentBundle: [Oficial(Standalone)] Deleting container.
+[2024.06.19-09.05.31:775][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.19-09.05.31:781][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-09.05.31:803][286]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.06.19-09.05.31:803][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.06.19-09.05.31:805][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.06.19-09.05.31:829][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.06.19-09.05.31:919][287]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.06.19-09.05.42:033][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.06.19-09.05.42:039][885]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-09.05.42:144][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/7P/PK4IAKKAUO79SZTQ8QRVS0
+[2024.06.19-09.05.42:145][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/PK4IAKKAUO79SZTQ8QRVS0768F9D3645079A36D94FA3B892CA3A70.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/7P/PK4IAKKAUO79SZTQ8QRVS0.uasset'
+[2024.06.19-09.05.42:147][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/9/7F/27RLZZTQGFY4NHGJ86X0U0
+[2024.06.19-09.05.42:147][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/27RLZZTQGFY4NHGJ86X0U02B83B22A48CBDEB691BD3CBB564AFFE9.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/9/7F/27RLZZTQGFY4NHGJ86X0U0.uasset'
+[2024.06.19-09.05.42:149][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/1P/WR1ZZ80M45664RL1EQV0OK
+[2024.06.19-09.05.42:149][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/WR1ZZ80M45664RL1EQV0OK11548DB34455ACAFCD3D55A4899BEA3C.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/1P/WR1ZZ80M45664RL1EQV0OK.uasset'
+[2024.06.19-09.05.42:151][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/8W/LSM4CM09Q0PSGZDHK5GM2C
+[2024.06.19-09.05.42:151][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/LSM4CM09Q0PSGZDHK5GM2CEC3731F84B0C5F1F073B678BD5541A9C.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/8W/LSM4CM09Q0PSGZDHK5GM2C.uasset'
+[2024.06.19-09.05.42:153][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/B5/UUQZOOQ79DTHJV6XIK8YMQ
+[2024.06.19-09.05.42:154][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/UUQZOOQ79DTHJV6XIK8YMQAC5C6A6F4CAEC002D1723E8093975174.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/B5/UUQZOOQ79DTHJV6XIK8YMQ.uasset'
+[2024.06.19-09.05.42:155][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/ZN/6TBLU9MY66690I16LOWCIG
+[2024.06.19-09.05.42:156][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/6TBLU9MY66690I16LOWCIG3C476AC74FB7245BB3042BBE4CB85A23.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/ZN/6TBLU9MY66690I16LOWCIG.uasset'
+[2024.06.19-09.05.42:157][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/1/YT/JZB2ZD507AUP6DJEGTKFVL
+[2024.06.19-09.05.42:157][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/JZB2ZD507AUP6DJEGTKFVL3823F9AA4D64FE6A9E5F1A801F90607A.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/1/YT/JZB2ZD507AUP6DJEGTKFVL.uasset'
+[2024.06.19-09.05.42:159][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/2/DH/IUSY5ZU3CRAQ540WBPDR5H
+[2024.06.19-09.05.42:159][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IUSY5ZU3CRAQ540WBPDR5H4B330AE4406010765C5C4C8A5CC0B2C4.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/2/DH/IUSY5ZU3CRAQ540WBPDR5H.uasset'
+[2024.06.19-09.05.42:161][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/4/AQ/HITGCG0YEWQM12FAL6EC25
+[2024.06.19-09.05.42:161][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/HITGCG0YEWQM12FAL6EC25B50C76A5448782AB5A3F74840380F827.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/4/AQ/HITGCG0YEWQM12FAL6EC25.uasset'
+[2024.06.19-09.05.42:162][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/FZ/MMDF3DXMAORPE698KMNC5X
+[2024.06.19-09.05.42:162][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/MMDF3DXMAORPE698KMNC5XDF9FE8C7470F8F52B30EF289C776F62B.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/FZ/MMDF3DXMAORPE698KMNC5X.uasset'
+[2024.06.19-09.05.42:164][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/XJ/4IVWGPADBORBJSSHSMPOV4
+[2024.06.19-09.05.42:164][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/4IVWGPADBORBJSSHSMPOV46CBE9F3940AECE06D977CCA3E0BFB8C0.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/XJ/4IVWGPADBORBJSSHSMPOV4.uasset'
+[2024.06.19-09.05.42:166][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/Z9/QGF6478RO5CQDBAZF1RG6U
+[2024.06.19-09.05.42:166][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/QGF6478RO5CQDBAZF1RG6U7C71C3AA45A0FE22FD91889F685B538D.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/Z9/QGF6478RO5CQDBAZF1RG6U.uasset'
+[2024.06.19-09.05.42:168][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/6/5I/91VQBXXFYVZ3TQSVBEOU3N
+[2024.06.19-09.05.42:168][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/91VQBXXFYVZ3TQSVBEOU3NEC1C47F340159256AC243091CC97096A.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/6/5I/91VQBXXFYVZ3TQSVBEOU3N.uasset'
+[2024.06.19-09.05.42:170][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/6/UL/U5UOY2KHX8Q1XQCMPLNS8R
+[2024.06.19-09.05.42:170][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/U5UOY2KHX8Q1XQCMPLNS8R1146A12D4BA7F5B5A389C59FE0761D2F.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/6/UL/U5UOY2KHX8Q1XQCMPLNS8R.uasset'
+[2024.06.19-09.05.42:172][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/8/5N/8EKL1PBJ4OZDMC03Y9ZTTI
+[2024.06.19-09.05.42:172][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/8EKL1PBJ4OZDMC03Y9ZTTI3F5A0DC8472FAF74A9B4FEA2F871E71D.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/8/5N/8EKL1PBJ4OZDMC03Y9ZTTI.uasset'
+[2024.06.19-09.05.42:174][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/A/7Y/RQLTSRG1FO9S75VY0F5KDK
+[2024.06.19-09.05.42:174][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/RQLTSRG1FO9S75VY0F5KDKD0F8B47843C41A1A1EFFB1BE9579F408.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/A/7Y/RQLTSRG1FO9S75VY0F5KDK.uasset'
+[2024.06.19-09.05.42:176][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/B/OP/R6XGR48OHWICQIAX1B1NEU
+[2024.06.19-09.05.42:176][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/R6XGR48OHWICQIAX1B1NEU66DF5F3D4BA67DF24F9FBEA9634C4A0A.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/B/OP/R6XGR48OHWICQIAX1B1NEU.uasset'
+[2024.06.19-09.05.42:178][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/C/2O/A7NIVK884M8E3W5OA1BV5H
+[2024.06.19-09.05.42:178][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/A7NIVK884M8E3W5OA1BV5HFFBCB4644E680E1C9BA1039C73018613.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/C/2O/A7NIVK884M8E3W5OA1BV5H.uasset'
+[2024.06.19-09.05.42:180][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/C/57/IZME36SCKDF1L28AW6SFVM
+[2024.06.19-09.05.42:180][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IZME36SCKDF1L28AW6SFVM64A8905D45F897C890EE94BEEE118B40.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/C/57/IZME36SCKDF1L28AW6SFVM.uasset'
+[2024.06.19-09.05.42:182][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/C/AT/SXJTJTLTM1YELPZUQ8RZIX
+[2024.06.19-09.05.42:182][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/SXJTJTLTM1YELPZUQ8RZIX5EEE960B4E4849A077A76A96857F2171.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/C/AT/SXJTJTLTM1YELPZUQ8RZIX.uasset'
+[2024.06.19-09.05.42:183][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/E/SM/7IEW247LPJ78P1DUBIPF9O
+[2024.06.19-09.05.42:183][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/7IEW247LPJ78P1DUBIPF9O88D9148A4155684D58D9FA95CD7455AF.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/E/SM/7IEW247LPJ78P1DUBIPF9O.uasset'
+[2024.06.19-09.05.42:185][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/E/UK/FESQQUVNZA0S0PAVV91MS9
+[2024.06.19-09.05.42:185][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/FESQQUVNZA0S0PAVV91MS971174B674E89C81DBAF9D5A0E8EFB336.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/E/UK/FESQQUVNZA0S0PAVV91MS9.uasset'
+[2024.06.19-09.05.42:187][885]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U
+[2024.06.19-09.05.42:187][885]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/NLV6ETZY5XZT6CGCVQKV8UAE368D93471D205253DC8794AC3193E5.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U.uasset'
+[2024.06.19-09.05.42:203][885]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 1.69 sec)
+[2024.06.19-09.05.42:210][885]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1289602148
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1878312968
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1608726159
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1613338160
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1601603158
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1589594156
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1431440690
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1544673150
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1435435691
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1566045153
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1571431154
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1895495970
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1870710966
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1477034961
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1560443152
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1581453155
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1537078149
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1438616692
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1427738689
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1555748151
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1594439157
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1884348969
+[2024.06.19-09.05.42:210][885]LogContentValidation: Display: Validating /Script/UnrealEd.GroupActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.GroupActor_UAID_BCECA016A164C70002_1962494522
+[2024.06.19-09.05.43:780][978]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.06.19-09.05.43:790][978]LogContentBundle: [Oficial(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.06.19-09.05.43:790][978]LogWorldPartition: Display: GenerateStreaming for 'Oficial' started...
+[2024.06.19-09.05.43:795][978]LogWorldPartition: Display: GenerateStreaming for 'Oficial' took 4 ms (total: 51 ms)
+[2024.06.19-09.05.43:795][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.19-09.05.43:795][978]PIE: New page: PIE session: Oficial (19 jun. 2024 13:05:43)
+[2024.06.19-09.05.43:795][978]LogPlayLevel: Creating play world package: /Game/ParadaBus/UEDPIE_0_Oficial
+[2024.06.19-09.05.43:799][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004222s)
+[2024.06.19-09.05.43:799][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ParadaBus/Oficial.Oficial to /Game/ParadaBus/UEDPIE_0_Oficial.Oficial (0.004258s)
+[2024.06.19-09.05.43:806][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.06.19-09.05.43:808][978]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-09.05.43:808][978]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.19-09.05.43:808][978]LogAIModule: Creating AISystem for world Oficial
+[2024.06.19-09.05.43:808][978]LogWorldPartition: ULevel::OnLevelLoaded(Oficial)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.06.19-09.05.43:809][978]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.06.19-09.05.43:809][978]LogWorldPartition: UWorldPartition::Initialize : World = Oficial, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.06.19-09.05.43:809][978]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.06.19-09.05.43:810][978]LogContentBundle: [Oficial(Standalone)] Creating new contrainer.
+[2024.06.19-09.05.43:810][978]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 887 ms)
+[2024.06.19-09.05.43:810][978]LogPlayLevel: PIE: World Init took: (0.002247s)
+[2024.06.19-09.05.43:810][978]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.06.19-09.05.43:810][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.19-09.05.43:810][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.19-09.05.43:810][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.19-09.05.43:810][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.19-09.05.43:810][978]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.19-09.05.43:810][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.19-09.05.43:810][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.19-09.05.43:810][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.19-09.05.43:810][978]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.19-09.05.43:810][978]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.19-09.05.43:810][978]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.19-09.05.43:812][978]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.19-09.05.43:860][978]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (Realtek(R) Audio)
+[2024.06.19-09.05.43:860][978]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.19-09.05.43:860][978]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.19-09.05.43:860][978]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.19-09.05.43:862][978]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.06.19-09.05.43:862][978]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.06.19-09.05.43:864][978]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.06.19-09.05.43:864][978]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.06.19-09.05.43:864][978]LogInit: FAudioDevice initialized with ID 12.
+[2024.06.19-09.05.43:864][978]LogAudio: Display: Audio Device (ID: 12) registered with world 'Oficial'.
+[2024.06.19-09.05.43:864][978]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.06.19-09.05.43:935][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.19-09.05.43:935][978]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.06.19-09.05.43:936][978]LogWorld: Bringing World /Game/ParadaBus/UEDPIE_0_Oficial.Oficial up for play (max tick rate 60) at 2024.06.19-11.05.43
+[2024.06.19-09.05.43:936][978]LogWorld: Bringing up level for play took: 0.000661
+[2024.06.19-09.05.43:939][978]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.06.19-09.05.43:943][978]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(39), CellsToLoad(0), CellsToUnload(0)
+[2024.06.19-09.05.43:943][978]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=20684.000 Y=2609.000 Z=55.000,P=-0.000000 Y=-95.000001 R=0.000000
+[2024.06.19-09.05.43:947][978]LogStreaming: Display: FlushAsyncLoading(): 124 QueuedPackages, 0 AsyncPackages
+[2024.06.19-09.05.44:234][978]PIE: Server logged in
+[2024.06.19-09.05.44:235][978]PIE: Play in editor total start time 0,444 seconds.
+[2024.06.19-09.05.44:251][978]LogViewport: Scene viewport resized to 668x500, mode Windowed.
+[2024.06.19-09.05.51:195][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.19-09.05.51:195][390]LogWorld: BeginTearingDown for /Game/ParadaBus/UEDPIE_0_Oficial
+[2024.06.19-09.05.51:195][390]LogSlate: Window 'MyProject7 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.06.19-09.05.51:221][390]LogWorld: UWorld::CleanupWorld for Oficial, bSessionEnded=true, bCleanupResources=true
+[2024.06.19-09.05.51:222][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-09.05.51:222][390]LogContentBundle: [Oficial(Standalone)] Deleting container.
+[2024.06.19-09.05.51:225][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.19-09.05.51:229][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.19-09.05.51:248][390]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.06.19-09.05.51:248][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.06.19-09.05.51:250][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.06.19-09.05.51:270][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.06.19-09.05.51:340][391]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.06.19-09.06.28:491][518]LogDerivedDataCache: C:/Users/Curs_5/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:36.238 and deleted 1139 files with total size 53 MiB and 1155 empty folders. Scanned 19034 files in 21415 folders with total size 4466 MiB.
+[2024.06.19-09.08.38:262][699]LogSlate: Window 'Save Asset As' being destroyed
+[2024.06.19-09.10.39:296][764]LogSlate: Window 'Save Asset As' being destroyed
+[2024.06.19-09.10.39:309][764]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.10.39:309][764]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.10.39:321][764]LogActorFactory: Actor Factory spawned LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta as actor: LevelSequenceActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.LevelSequenceActor_UAID_BCECA016A164CD0002_2107621635
+[2024.06.19-09.10.39:321][764]LogActorFactory: Actor Factory spawned LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta as actor: LevelSequenceActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.LevelSequenceActor_UAID_BCECA016A164CD0002_2107621635
+[2024.06.19-09.10.39:350][764]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.10.39:622][764]LogViewport: Scene viewport resized to 1904x379, mode Windowed.
+[2024.06.19-09.11.52:109][172]LogSlate: Took 0.002152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: ================================================
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: Total job queries 120, among them cache hits 20 (16.67%)
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: Tracking 100 distinct input hashes that result in 76 distinct outputs (76.00%)
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: RAM used: 289,94 KiB of 819,20 MiB budget. Usage: 0.03%
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.19-09.12.25:800][178]LogShaderCompilers: Display: ================================================
+[2024.06.19-09.12.55:016][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-09.15.21:536][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.06.19-09.15.21:541][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/7P/PK4IAKKAUO79SZTQ8QRVS0_Auto8
+[2024.06.19-09.15.21:541][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/PK4IAKKAUO79SZTQ8QRVS0_Auto88CBD0A2744CFC5FE3A90EC83311AA483.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/7P/PK4IAKKAUO79SZTQ8QRVS0_Auto8.uasset'
+[2024.06.19-09.15.21:543][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/9/7F/27RLZZTQGFY4NHGJ86X0U0_Auto8
+[2024.06.19-09.15.21:543][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/27RLZZTQGFY4NHGJ86X0U0_Auto823DAC73B4B6E1679FE857CA55DDB5A80.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/9/7F/27RLZZTQGFY4NHGJ86X0U0_Auto8.uasset'
+[2024.06.19-09.15.21:545][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/1P/WR1ZZ80M45664RL1EQV0OK_Auto8
+[2024.06.19-09.15.21:545][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/WR1ZZ80M45664RL1EQV0OK_Auto8BB49919142EAC804912D77839C1F2730.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/1P/WR1ZZ80M45664RL1EQV0OK_Auto8.uasset'
+[2024.06.19-09.15.21:546][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/8W/LSM4CM09Q0PSGZDHK5GM2C_Auto8
+[2024.06.19-09.15.21:546][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/LSM4CM09Q0PSGZDHK5GM2C_Auto85481292D4F78811004AA378484F6D261.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/8W/LSM4CM09Q0PSGZDHK5GM2C_Auto8.uasset'
+[2024.06.19-09.15.21:549][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/B5/UUQZOOQ79DTHJV6XIK8YMQ_Auto8
+[2024.06.19-09.15.21:549][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/UUQZOOQ79DTHJV6XIK8YMQ_Auto833781E4C47DD43E33DED0BADE4FAEC6F.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/B5/UUQZOOQ79DTHJV6XIK8YMQ_Auto8.uasset'
+[2024.06.19-09.15.21:551][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/ZN/6TBLU9MY66690I16LOWCIG_Auto8
+[2024.06.19-09.15.21:551][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/6TBLU9MY66690I16LOWCIG_Auto82213D8274A25E3E1A56D259A1380958D.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/0/ZN/6TBLU9MY66690I16LOWCIG_Auto8.uasset'
+[2024.06.19-09.15.21:553][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/1/YT/JZB2ZD507AUP6DJEGTKFVL_Auto8
+[2024.06.19-09.15.21:553][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/JZB2ZD507AUP6DJEGTKFVL_Auto83F62824B421EEC2518338A831D10F839.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/1/YT/JZB2ZD507AUP6DJEGTKFVL_Auto8.uasset'
+[2024.06.19-09.15.21:554][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/2/DH/IUSY5ZU3CRAQ540WBPDR5H_Auto8
+[2024.06.19-09.15.21:554][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IUSY5ZU3CRAQ540WBPDR5H_Auto841B6FFCC41F3838E391600B65152807F.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/2/DH/IUSY5ZU3CRAQ540WBPDR5H_Auto8.uasset'
+[2024.06.19-09.15.21:556][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/4/AQ/HITGCG0YEWQM12FAL6EC25_Auto8
+[2024.06.19-09.15.21:556][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/HITGCG0YEWQM12FAL6EC25_Auto82110C2A342CA9F756F9F158F92C4532D.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/4/AQ/HITGCG0YEWQM12FAL6EC25_Auto8.uasset'
+[2024.06.19-09.15.21:558][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/FZ/MMDF3DXMAORPE698KMNC5X_Auto8
+[2024.06.19-09.15.21:558][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/MMDF3DXMAORPE698KMNC5X_Auto84FBCE4334BF831035081A9B9D90A6B18.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/FZ/MMDF3DXMAORPE698KMNC5X_Auto8.uasset'
+[2024.06.19-09.15.21:559][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/XJ/4IVWGPADBORBJSSHSMPOV4_Auto8
+[2024.06.19-09.15.21:559][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/4IVWGPADBORBJSSHSMPOV4_Auto8DE2DD85445B7E8E486B391BEBC4556B3.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/XJ/4IVWGPADBORBJSSHSMPOV4_Auto8.uasset'
+[2024.06.19-09.15.21:561][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/Z9/QGF6478RO5CQDBAZF1RG6U_Auto8
+[2024.06.19-09.15.21:561][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/QGF6478RO5CQDBAZF1RG6U_Auto83084FBD64A3E29E7C8DCA4B130E0DEBF.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/5/Z9/QGF6478RO5CQDBAZF1RG6U_Auto8.uasset'
+[2024.06.19-09.15.21:563][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/6/5I/91VQBXXFYVZ3TQSVBEOU3N_Auto8
+[2024.06.19-09.15.21:563][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/91VQBXXFYVZ3TQSVBEOU3N_Auto838EE8B6C4C7441882F13EDA1D74D0318.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/6/5I/91VQBXXFYVZ3TQSVBEOU3N_Auto8.uasset'
+[2024.06.19-09.15.21:564][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/6/UL/U5UOY2KHX8Q1XQCMPLNS8R_Auto8
+[2024.06.19-09.15.21:564][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/U5UOY2KHX8Q1XQCMPLNS8R_Auto8ED0643474327EEAFF6B7B9A7DECA2839.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/6/UL/U5UOY2KHX8Q1XQCMPLNS8R_Auto8.uasset'
+[2024.06.19-09.15.21:566][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/8/5N/8EKL1PBJ4OZDMC03Y9ZTTI_Auto8
+[2024.06.19-09.15.21:566][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/8EKL1PBJ4OZDMC03Y9ZTTI_Auto86EA04C9643672E8B708276AD19DEA835.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/8/5N/8EKL1PBJ4OZDMC03Y9ZTTI_Auto8.uasset'
+[2024.06.19-09.15.21:567][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/A/7Y/RQLTSRG1FO9S75VY0F5KDK_Auto8
+[2024.06.19-09.15.21:569][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/RQLTSRG1FO9S75VY0F5KDK_Auto82E6FC1CA4564EEF100373993F2A696EE.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/A/7Y/RQLTSRG1FO9S75VY0F5KDK_Auto8.uasset'
+[2024.06.19-09.15.21:571][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/B/OP/R6XGR48OHWICQIAX1B1NEU_Auto8
+[2024.06.19-09.15.21:571][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/R6XGR48OHWICQIAX1B1NEU_Auto83F1868B344171A20C4A8168DB561D70F.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/B/OP/R6XGR48OHWICQIAX1B1NEU_Auto8.uasset'
+[2024.06.19-09.15.21:573][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/C/2O/A7NIVK884M8E3W5OA1BV5H_Auto8
+[2024.06.19-09.15.21:573][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/A7NIVK884M8E3W5OA1BV5H_Auto8E68BBED34696558E552A3DA03E7B8032.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/C/2O/A7NIVK884M8E3W5OA1BV5H_Auto8.uasset'
+[2024.06.19-09.15.21:574][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/C/57/IZME36SCKDF1L28AW6SFVM_Auto8
+[2024.06.19-09.15.21:574][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IZME36SCKDF1L28AW6SFVM_Auto80D78A8354527BD9A0B51E880764B172D.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/C/57/IZME36SCKDF1L28AW6SFVM_Auto8.uasset'
+[2024.06.19-09.15.21:576][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/C/AT/SXJTJTLTM1YELPZUQ8RZIX_Auto8
+[2024.06.19-09.15.21:576][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/SXJTJTLTM1YELPZUQ8RZIX_Auto85694C8744620D29F002FC38F2BB4EFFB.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/C/AT/SXJTJTLTM1YELPZUQ8RZIX_Auto8.uasset'
+[2024.06.19-09.15.21:578][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/E/SM/7IEW247LPJ78P1DUBIPF9O_Auto8
+[2024.06.19-09.15.21:578][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/7IEW247LPJ78P1DUBIPF9O_Auto88411A62B40BE9B7132F3A897610380B9.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/E/SM/7IEW247LPJ78P1DUBIPF9O_Auto8.uasset'
+[2024.06.19-09.15.21:579][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/E/UK/FESQQUVNZA0S0PAVV91MS9_Auto8
+[2024.06.19-09.15.21:579][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/FESQQUVNZA0S0PAVV91MS9_Auto8D649003045DD66066DCF2BAF918FE22D.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/E/UK/FESQQUVNZA0S0PAVV91MS9_Auto8.uasset'
+[2024.06.19-09.15.21:581][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64_Auto8
+[2024.06.19-09.15.21:581][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/4A3GEV51JISQ0DZIG6HG64_Auto8C8C601FC490C05021F1E999427833BC3.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64_Auto8.uasset'
+[2024.06.19-09.15.21:583][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/3/49/RIK8F9GCBU6LY3HJGHV36D_Auto8
+[2024.06.19-09.15.21:583][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/RIK8F9GCBU6LY3HJGHV36D_Auto8F4A656A545DCE529A6FD928B9FA3D530.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/3/49/RIK8F9GCBU6LY3HJGHV36D_Auto8.uasset'
+[2024.06.19-09.15.21:585][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U_Auto8
+[2024.06.19-09.15.21:585][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/NLV6ETZY5XZT6CGCVQKV8U_Auto85DB59558461314FF60776C9504DC05C8.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U_Auto8.uasset'
+[2024.06.19-09.15.21:587][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/B/CH/IYF5XF7E4SA3M1SVIT988J_Auto8
+[2024.06.19-09.15.21:587][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IYF5XF7E4SA3M1SVIT988J_Auto8AC6F52D24D9A999EA33CE59E0F8DFB7C.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/B/CH/IYF5XF7E4SA3M1SVIT988J_Auto8.uasset'
+[2024.06.19-09.15.21:589][504]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ParadaBus/Oficial' took 0.072
+[2024.06.19-09.15.21:589][504]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2024.06.19-09.15.21:589][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta] ([1] browsable assets)...
+[2024.06.19-09.15.21:589][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta]
+[2024.06.19-09.15.21:595][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto8
+[2024.06.19-09.15.21:595][504]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_put477E8E2E4DAC63FB6FED7DAB40C7E0A8.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto8.uasset'
+[2024.06.19-09.15.21:596][504]LogFileHelpers: Auto-saving content packages took 0.007
+[2024.06.19-09.15.38:948][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.06.19-09.15.38:953][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-09.15.39:060][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/7P/PK4IAKKAUO79SZTQ8QRVS0
+[2024.06.19-09.15.39:061][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/PK4IAKKAUO79SZTQ8QRVS0861EB4B24F58F1724393E29B8EB6CAF6.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/7P/PK4IAKKAUO79SZTQ8QRVS0.uasset'
+[2024.06.19-09.15.39:063][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/9/7F/27RLZZTQGFY4NHGJ86X0U0
+[2024.06.19-09.15.39:064][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/27RLZZTQGFY4NHGJ86X0U06AFFAD9E471D4DB06557A4B6EB296110.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/9/7F/27RLZZTQGFY4NHGJ86X0U0.uasset'
+[2024.06.19-09.15.39:066][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/1P/WR1ZZ80M45664RL1EQV0OK
+[2024.06.19-09.15.39:066][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/WR1ZZ80M45664RL1EQV0OKA89C3E704189C77B5C6B3AA3E291EFA7.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/1P/WR1ZZ80M45664RL1EQV0OK.uasset'
+[2024.06.19-09.15.39:068][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/8W/LSM4CM09Q0PSGZDHK5GM2C
+[2024.06.19-09.15.39:069][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/LSM4CM09Q0PSGZDHK5GM2C20A1D9CF4A17B16E81035AADF7EED7EB.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/8W/LSM4CM09Q0PSGZDHK5GM2C.uasset'
+[2024.06.19-09.15.39:071][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/B5/UUQZOOQ79DTHJV6XIK8YMQ
+[2024.06.19-09.15.39:072][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/UUQZOOQ79DTHJV6XIK8YMQ1E00C57241839191A5EDA7937D9FB96C.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/B5/UUQZOOQ79DTHJV6XIK8YMQ.uasset'
+[2024.06.19-09.15.39:074][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/0/ZN/6TBLU9MY66690I16LOWCIG
+[2024.06.19-09.15.39:074][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/6TBLU9MY66690I16LOWCIGD77D041D49AFCAEAFD7B0492DB12FC20.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/0/ZN/6TBLU9MY66690I16LOWCIG.uasset'
+[2024.06.19-09.15.39:077][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/1/YT/JZB2ZD507AUP6DJEGTKFVL
+[2024.06.19-09.15.39:077][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/JZB2ZD507AUP6DJEGTKFVLD9E8CDF3430BA55709DD2E945F192C57.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/1/YT/JZB2ZD507AUP6DJEGTKFVL.uasset'
+[2024.06.19-09.15.39:079][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/2/DH/IUSY5ZU3CRAQ540WBPDR5H
+[2024.06.19-09.15.39:079][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IUSY5ZU3CRAQ540WBPDR5HDCA9179B434572C45A27FDA36FF64CEB.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/2/DH/IUSY5ZU3CRAQ540WBPDR5H.uasset'
+[2024.06.19-09.15.39:081][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/4/AQ/HITGCG0YEWQM12FAL6EC25
+[2024.06.19-09.15.39:081][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/HITGCG0YEWQM12FAL6EC25D83D14E84564909D6415C6BBFAC6F1AC.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/4/AQ/HITGCG0YEWQM12FAL6EC25.uasset'
+[2024.06.19-09.15.39:083][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/FZ/MMDF3DXMAORPE698KMNC5X
+[2024.06.19-09.15.39:083][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/MMDF3DXMAORPE698KMNC5XCD97120043853522FD59C991AE83088D.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/FZ/MMDF3DXMAORPE698KMNC5X.uasset'
+[2024.06.19-09.15.39:084][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/XJ/4IVWGPADBORBJSSHSMPOV4
+[2024.06.19-09.15.39:086][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/4IVWGPADBORBJSSHSMPOV457A4301745806CAD51E32BAC841491FA.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/XJ/4IVWGPADBORBJSSHSMPOV4.uasset'
+[2024.06.19-09.15.39:087][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/5/Z9/QGF6478RO5CQDBAZF1RG6U
+[2024.06.19-09.15.39:088][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/QGF6478RO5CQDBAZF1RG6U109651B54226820BDF7D839A06B578EE.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/5/Z9/QGF6478RO5CQDBAZF1RG6U.uasset'
+[2024.06.19-09.15.39:089][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/6/5I/91VQBXXFYVZ3TQSVBEOU3N
+[2024.06.19-09.15.39:090][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/91VQBXXFYVZ3TQSVBEOU3NFECE8AFA42891CD60FE9A7BB4F4436BD.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/6/5I/91VQBXXFYVZ3TQSVBEOU3N.uasset'
+[2024.06.19-09.15.39:092][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/6/UL/U5UOY2KHX8Q1XQCMPLNS8R
+[2024.06.19-09.15.39:092][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/U5UOY2KHX8Q1XQCMPLNS8R86CC24AB4AD2BDDBFA3C6FBF4D109E32.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/6/UL/U5UOY2KHX8Q1XQCMPLNS8R.uasset'
+[2024.06.19-09.15.39:093][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/8/5N/8EKL1PBJ4OZDMC03Y9ZTTI
+[2024.06.19-09.15.39:094][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/8EKL1PBJ4OZDMC03Y9ZTTI616DB55C440CAEE5DB2DF49E0E61AD94.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/8/5N/8EKL1PBJ4OZDMC03Y9ZTTI.uasset'
+[2024.06.19-09.15.39:095][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/A/7Y/RQLTSRG1FO9S75VY0F5KDK
+[2024.06.19-09.15.39:095][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/RQLTSRG1FO9S75VY0F5KDKB507A471433FE6CE98426C83154554E2.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/A/7Y/RQLTSRG1FO9S75VY0F5KDK.uasset'
+[2024.06.19-09.15.39:098][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/B/OP/R6XGR48OHWICQIAX1B1NEU
+[2024.06.19-09.15.39:098][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/R6XGR48OHWICQIAX1B1NEU42DE49DF45F3B2AAB5846BAA85630685.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/B/OP/R6XGR48OHWICQIAX1B1NEU.uasset'
+[2024.06.19-09.15.39:100][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/C/2O/A7NIVK884M8E3W5OA1BV5H
+[2024.06.19-09.15.39:101][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/A7NIVK884M8E3W5OA1BV5H78BF9D10417386FD6D10E0859505B958.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/C/2O/A7NIVK884M8E3W5OA1BV5H.uasset'
+[2024.06.19-09.15.39:103][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/C/57/IZME36SCKDF1L28AW6SFVM
+[2024.06.19-09.15.39:103][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IZME36SCKDF1L28AW6SFVM217E4E9848AB75702E1471A29355DB0A.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/C/57/IZME36SCKDF1L28AW6SFVM.uasset'
+[2024.06.19-09.15.39:105][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/C/AT/SXJTJTLTM1YELPZUQ8RZIX
+[2024.06.19-09.15.39:106][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/SXJTJTLTM1YELPZUQ8RZIX4B3A47854A2EF7AA7614ABBBADA62D4C.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/C/AT/SXJTJTLTM1YELPZUQ8RZIX.uasset'
+[2024.06.19-09.15.39:107][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/E/SM/7IEW247LPJ78P1DUBIPF9O
+[2024.06.19-09.15.39:108][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/7IEW247LPJ78P1DUBIPF9O45192E524554E74D2BC3BE9E42441FF2.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/E/SM/7IEW247LPJ78P1DUBIPF9O.uasset'
+[2024.06.19-09.15.39:109][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/E/UK/FESQQUVNZA0S0PAVV91MS9
+[2024.06.19-09.15.39:109][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/FESQQUVNZA0S0PAVV91MS9B69B590640B523E2A3BAE6A6AC619955.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/E/UK/FESQQUVNZA0S0PAVV91MS9.uasset'
+[2024.06.19-09.15.39:112][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64
+[2024.06.19-09.15.39:112][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/4A3GEV51JISQ0DZIG6HG648D1BB61F4F501E36A8AEF291128F094E.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64.uasset'
+[2024.06.19-09.15.39:114][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/3/49/RIK8F9GCBU6LY3HJGHV36D
+[2024.06.19-09.15.39:115][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/RIK8F9GCBU6LY3HJGHV36D0DD3653C4EC15C05EB3CF4ABCD47A463.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/3/49/RIK8F9GCBU6LY3HJGHV36D.uasset'
+[2024.06.19-09.15.39:117][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U
+[2024.06.19-09.15.39:117][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/NLV6ETZY5XZT6CGCVQKV8UA1239CBC4B5C12D5B9F55CBDDBC4F467.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U.uasset'
+[2024.06.19-09.15.39:120][717]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/B/CH/IYF5XF7E4SA3M1SVIT988J
+[2024.06.19-09.15.39:120][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/IYF5XF7E4SA3M1SVIT988J66F9C47C40D97C68B75884BE60D90C29.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/B/CH/IYF5XF7E4SA3M1SVIT988J.uasset'
+[2024.06.19-09.15.39:125][717]LogSavePackage: Moving output files for package: /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.15.39:125][717]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_put9E6674D342881EB874F6AA81E1939680.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/cinematica_bus/una_cinematica_me_cago_en_la_puta.uasset'
+[2024.06.19-09.15.39:134][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 1.87 sec)
+[2024.06.19-09.15.39:143][717]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1289602148
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1878312968
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1608726159
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1613338160
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1601603158
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1589594156
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1431440690
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1544673150
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1435435691
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1566045153
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1571431154
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1895495970
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1870710966
+[2024.06.19-09.15.39:143][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1477034961
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1560443152
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1581453155
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1537078149
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1438616692
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A1649BFE01_1427738689
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1555748151
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16498FE01_1594439157
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A16497FE01_1884348969
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.SkeletalMeshActor_UAID_BCECA016A16405FD01_1930272207
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.StaticMeshActor_UAID_BCECA016A03DE7F301_2106308440
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/UnrealEd.GroupActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.GroupActor_UAID_BCECA016A164C70002_1962494522
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequenceActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.LevelSequenceActor_UAID_BCECA016A164CD0002_2107621635
+[2024.06.19-09.15.39:144][717]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.36.15:118][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.06.19-09.36.15:120][785]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ParadaBus/Oficial' took 0.018
+[2024.06.19-09.36.15:120][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta] ([1] browsable assets)...
+[2024.06.19-09.36.15:120][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta]
+[2024.06.19-09.36.15:124][785]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto9
+[2024.06.19-09.36.15:124][785]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_put423880284F2D0A733374A39A3294BE16.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto9.uasset'
+[2024.06.19-09.36.15:125][785]LogFileHelpers: Auto-saving content packages took 0.006
+[2024.06.19-09.48.15:108][226]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-09.48.15:145][227]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-09.48.15:242][229]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.19-09.48.45:971][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.19-09.48.45:977][708]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ParadaBus/Oficial' took 0.017
+[2024.06.19-09.48.45:978][708]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta] ([1] browsable assets)...
+[2024.06.19-09.48.45:978][708]OBJ SavePackage: Finished generating thumbnails for package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta]
+[2024.06.19-09.48.45:982][708]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto0
+[2024.06.19-09.48.45:983][708]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_put31E11DEF4D877C0DF5750184FF626D45.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto0.uasset'
+[2024.06.19-09.48.45:983][708]LogFileHelpers: Auto-saving content packages took 0.006
+[2024.06.19-09.49.43:603][242]LogSlate: Took 0.000950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.19-09.50.32:223][124]Cmd: TRANSACTION UNDO
+[2024.06.19-09.50.32:223][124]LogEditorTransaction: Undo Move Keys or Sections
+[2024.06.19-09.50.32:762][140]Cmd: TRANSACTION UNDO
+[2024.06.19-09.50.32:762][140]LogEditorTransaction: Undo Set Key
+[2024.06.19-09.52.36:588][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.06.19-09.52.36:596][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-09.52.36:698][527]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64
+[2024.06.19-09.52.36:699][527]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/4A3GEV51JISQ0DZIG6HG641A87B27D4A55F6D829E15CB26D9E24C2.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64.uasset'
+[2024.06.19-09.52.36:704][527]LogSavePackage: Moving output files for package: /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.52.36:705][527]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_putBA17357A49EAA1B0988D49A1F51ACE5C.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/cinematica_bus/una_cinematica_me_cago_en_la_puta.uasset'
+[2024.06.19-09.52.36:712][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 1.99 sec)
+[2024.06.19-09.52.36:714][527]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.19-09.52.36:714][527]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.SkeletalMeshActor_UAID_BCECA016A16405FD01_1930272207
+[2024.06.19-09.52.36:714][527]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.53.10:935][576]Cmd: TRANSACTION UNDO
+[2024.06.19-09.53.10:935][576]LogEditorTransaction: Undo Move Keys or Sections
+[2024.06.19-09.54.54:818][601]Cmd: TRANSACTION UNDO
+[2024.06.19-09.54.54:818][601]LogEditorTransaction: Undo Select Actors/Components
+[2024.06.19-09.58.34:690][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.06.19-09.58.34:697][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-09.58.34:807][609]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64
+[2024.06.19-09.58.34:807][609]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/4A3GEV51JISQ0DZIG6HG64ACF4F2D94DA44C598ECDF9B24FD6836A.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/2/6B/4A3GEV51JISQ0DZIG6HG64.uasset'
+[2024.06.19-09.58.34:813][609]LogSavePackage: Moving output files for package: /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.58.34:813][609]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_put22FC793D46BE035E6882B89103241EDB.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/cinematica_bus/una_cinematica_me_cago_en_la_puta.uasset'
+[2024.06.19-09.58.34:821][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 2.11 sec)
+[2024.06.19-09.58.34:823][609]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.19-09.58.34:823][609]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.SkeletalMeshActor_UAID_BCECA016A16405FD01_1930272207
+[2024.06.19-09.58.34:823][609]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta
+[2024.06.19-09.58.44:547][185]LogEditorViewport: Clicking Background
+[2024.06.19-09.59.31:988][647]LogEditorViewport: Clicking Background
+[2024.06.19-10.00.01:341][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.06.19-10.00.01:348][386]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U_Auto1
+[2024.06.19-10.00.01:348][386]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/NLV6ETZY5XZT6CGCVQKV8U_Auto18AC9626C425C8AC350D411AF73EC983C.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U_Auto1.uasset'
+[2024.06.19-10.00.01:349][386]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ParadaBus/Oficial' took 0.016
+[2024.06.19-10.00.01:349][386]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.016
+[2024.06.19-10.00.43:326][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.06.19-10.00.43:330][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-10.00.43:429][902]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U
+[2024.06.19-10.00.43:429][902]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/NLV6ETZY5XZT6CGCVQKV8U9ACC91D14042817325618F97E9B3FD23.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/__ExternalActors__/ParadaBus/Oficial/9/BN/NLV6ETZY5XZT6CGCVQKV8U.uasset'
+[2024.06.19-10.00.43:437][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 2.22 sec)
+[2024.06.19-10.00.43:439][902]AssetCheck: New page: Asset Save: GroupActor_UAID_BCECA016A164C70002_1962494522
+[2024.06.19-10.00.43:439][902]LogContentValidation: Display: Validating /Script/UnrealEd.GroupActor /Game/ParadaBus/Oficial.Oficial:PersistentLevel.GroupActor_UAID_BCECA016A164C70002_1962494522
+[2024.06.19-10.06.26:450][617]LogDerivedDataCache: C:/Users/Curs_5/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:34.195 and deleted 48 files with total size 0 MiB and 204 empty folders. Scanned 17895 files in 20260 folders with total size 4413 MiB.
+[2024.06.19-10.17.46:584][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.06.19-10.17.46:586][365]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ParadaBus/Oficial' took 0.011
+[2024.06.19-10.17.46:586][365]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta] ([1] browsable assets)...
+[2024.06.19-10.17.46:586][365]OBJ SavePackage: Finished generating thumbnails for package [/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta]
+[2024.06.19-10.17.46:592][365]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto2
+[2024.06.19-10.17.46:592][365]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_put20B77B024F0B629B99238EA507665675.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/Autosaves/Game/cinematica_bus/una_cinematica_me_cago_en_la_puta_Auto2.uasset'
+[2024.06.19-10.17.46:592][365]LogFileHelpers: Auto-saving content packages took 0.006
+[2024.06.19-10.17.51:094][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.06.19-10.17.51:100][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.19-10.17.51:197][633]LogSavePackage: Moving output files for package: /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta
+[2024.06.19-10.17.51:197][633]LogSavePackage: Moving '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Saved/una_cinematica_me_cago_en_la_put960988694DA60A32D5C46DB1740601CF.tmp' to '../../../../../../Users/Curs_5/Documents/tdah/MyProject7/Content/cinematica_bus/una_cinematica_me_cago_en_la_puta.uasset'
+[2024.06.19-10.17.51:203][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 2.32 sec)
+[2024.06.19-10.17.51:204][633]AssetCheck: New page: Asset Save: una_cinematica_me_cago_en_la_puta
+[2024.06.19-10.17.51:205][633]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/cinematica_bus/una_cinematica_me_cago_en_la_puta.una_cinematica_me_cago_en_la_puta
